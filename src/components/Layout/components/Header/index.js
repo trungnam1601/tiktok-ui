@@ -77,13 +77,13 @@ function Header() {
         },
         {
             icon: <FontAwesomeIcon icon={faCoins} />,
-            title: 'Feedback and help',
-            to: '/feedback',
+            title: 'Get coins',
+            to: '/coin',
         },
         {
             icon: <FontAwesomeIcon icon={faGear} />,
-            title: 'Get coins',
-            to: '/coin',
+            title: 'Setting',
+            to: '/setting',
         },
         ...MENU_ITEMS,
         {
