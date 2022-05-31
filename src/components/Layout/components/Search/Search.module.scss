@@ -57,6 +57,20 @@
     color: rgba(22, 24, 35, 0.34);
 }
 
+.loading {
+    animation: spinner 2s linear infinite;
+}
+
+//quay vòng
+@keyframes spinner {
+    from {
+        transform: translateY(-50%) rotate(0);
+    }
+    to {
+        transform: translateY(-50%) rotate(360deg);
+    }
+}
+
 .search-btn {
     display: flex;
     align-items: center;
