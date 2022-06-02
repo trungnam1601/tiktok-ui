@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from 'react';
-import * as searchService from '~/apiServices/searchServices';
+import * as searchService from '~/services/searchService';
 import { faCircleXmark, faSpinner } from '@fortawesome/free-solid-svg-icons';
 import HeadlessTippy from '@tippyjs/react/headless';
 import { Wrapper as PopperWrapper } from '~/components/Popper';
